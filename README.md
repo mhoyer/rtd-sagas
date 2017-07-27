@@ -9,5 +9,5 @@ This project tries to show a proper usage of [redux-saga](https://redux-saga.js.
 
 ## See also
 
- - [](https://github.com/mhoyer/rtd-counter): A simple React sample for showing use of *Redux Typed Ducks*.
+ - [rtd-counter](https://github.com/mhoyer/rtd-counter): A simple React sample for showing use of *Redux Typed Ducks*.
  - [ng2-kanban](https://github.com/mhoyer/ng2-kanban): A slightly more complex *Redux Typed Ducks* sample using [@angular](https://github.com/angular/angular) and [@ngrx/store](https://github.com/ngrx/store)
