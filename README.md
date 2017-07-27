@@ -1,6 +1,6 @@
 # Redux Typed Ducks - Saga example
 
-This project tries to show a proper usage of [redux-saga](https://redux-saga.js.org/) in conjunction with [Redux Saga](https://github.com/mhoyer/redux-typed-ducks).
+This project tries to show a proper usage of [redux-typed-ducks](https://github.com/mhoyer/redux-typed-ducks) in conjunction with [redux-saga](https://redux-saga.js.org/).
 
 ## Run it
 
