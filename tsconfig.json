@@ -4,9 +4,8 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "sourceMap": false,
-    "noImplicitAny": false
+    "noImplicitAny": false,
+    "outDir": "./dist"
   },
-  "files": [
-     "index.ts"
-  ]
+  "include": [ "*.ts" ]
 }
