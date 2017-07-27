@@ -1,0 +1,21 @@
+{
+  "name": "rtd-sagas",
+  "version": "0.1.0",
+  "description": "A simple example for showing usage of redux typed ducks together with async redux-saga.",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json && node index.js",
+    "dev": "nodemon -w "
+  },
+  "keywords": [],
+  "author": "Marcel Hoyer <mhoyer@pixelplastic.de>",
+  "license": "ISC",
+  "dependencies": {
+    "redux": "^3.7.2",
+    "redux-saga": "^0.15.6",
+    "redux-typed-ducks": "^0.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.4.2"
+  }
+}
