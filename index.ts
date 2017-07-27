@@ -66,7 +66,7 @@ function* fetchUser(action) {
    }
 }
 
-function* watchLastFetchUser() {
+function* watchFetchUser() {
   // yield takeLatest("USER_FETCH_REQUESTED", fetchUser);
   yield takeEvery(ducks.userFetchRequest.actionType, fetchUser);
 }
@@ -81,7 +81,7 @@ const store = createStore(
 const dispatchedActions = RTD.createDispatchedActions(ducks, store);
 
 // bootstrap
-sagaMiddleware.run(watchLastFetchUser);
+sagaMiddleware.run(watchFetchUser);
 
 // simulate UI interaction
 console.log(`UI: Started. Get ready for some simulated interaction.`);
